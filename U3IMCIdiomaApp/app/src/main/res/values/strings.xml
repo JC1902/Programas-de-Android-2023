@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">U3IMCApp</string>
+    <string name="titulo_app">Indice de Masa Corporal</string>
+    <string name="peso">Peso (Kg)</string>
+    <string name="estatura">Estatura (m)</string>
+    <string name="btn_calcular">Calcular IMC</string>
+    <string name="btn_AcercaDe">Acerca De...</string>
+    <string name="btn_regreso">Regresar a la calculadora</string>
+    <string name="nombre">Jorge Cisneros de la Torre</string>
+    <string name="noControl">20130789</string>
+    <string name="appVer">U3IMCApp ver1.0</string>
+    <string name="tecNM">Tecnológico Nacional de México</string>
+    <string name="campus">Campus La Laguna</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="delgadez_muy_severa">Delgadez muy severa</string>
+    <string name="delgadez_severa">Delgadez severa</string>
+    <string name="imc_igual">IMC =</string>
+    <string name="condicion_salud">Su condición de salud es:</string>
+    <string name="delgadez">Delgadez</string>
+    <string name="peso_saludable">Peso saludable</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="obesidad_moderada">Obesidad moderada</string>
+    <string name="obesidad_severa">Obesidad severa</string>
+    <string name="obesidad_muy_severa">Obesidad muy severa (obesidad mórbida)</string>
+    <string name="valor_0">Debe ingresar valores mayor que cero</string>
+    <string name="valores_correctos">Ingrese valores correctos para hacer el cálculo</string>
+</resources>

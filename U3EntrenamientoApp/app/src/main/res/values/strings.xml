@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">U3EntrenamientoApp</string>
+    <string name="tecnm">Tecnológico Nacional de México</string>
+    <string name="campus">Campus La Laguna</string>
+    <string name="txt_nombre">Jorge Cisneros de la Torre</string>
+    <string name="txt_nocontrol">20130789</string>
+    <string name="txt_appver">U3Entrenamiento ver 1.2</string>
+</resources>

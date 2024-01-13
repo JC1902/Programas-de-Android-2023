@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <color android:color="#FFFFFF" />
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <rotate
+                android:fromDegrees="0"
+                android:toDegrees="360"
+                android:pivotX="50%"
+                android:pivotY="50%" >
+            <bitmap
+                android:src="@drawable/load"
+                android:gravity="center" />
+            </rotate>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--******************************************************************************************
+:*                         TECNOLOGICO NACIONAL DE MEXICO
+:*                                CAMPUS LA LAGUNA
+:*                     INGENIERIA EN SISTEMAS COMPUTACIONALES
+:*                             DESARROLLO EN ANDROID "A"
+:*
+:*                   SEMESTRE: AGO-DIC/2023    HORA: 08-09 HRS
+:*
+:*                  Archivo con configuraciones para la aplicacion
+:*
+:*  Archivo     : bandera1_layout.xml
+:*  Autor       : Jorge Cisneros de la Torre     20130789
+:*  Fecha       : 12/Sept/2023
+:*  Compilador  : Android Studio Giraffe 2022.3.1
+:*  Descripción : Archivo que contiene configuraciones para la aplicacion y donde
+                  se enlistan los activity's que esten en ella
+:*  Ultima modif:
+:*  Fecha       Modificó             Motivo
+:*==========================================================================================
+:*
+******************************************************************************************-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.U2Band3Lay3ActApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Bandera3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Bandera2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Bandera1Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

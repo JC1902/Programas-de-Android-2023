@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">U3TrainingApp</string>
+    <string name="tecnm">National Technological Institute of Mexico</string>
+    <string name="campus">La Laguna Campus</string>
+    <string name="txt_nombre">Jorge Cisneros de la Torre</string>
+    <string name="txt_nocontrol">20130789</string>
+    <string name="txt_appver">U3Training ver 1.2</string>
+</resources>

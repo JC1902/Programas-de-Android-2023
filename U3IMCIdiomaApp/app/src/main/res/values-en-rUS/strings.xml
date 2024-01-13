@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">U3IMCApp</string>
+    <string name="titulo_app">Body Mass Index</string>
+    <string name="peso">Weight (Kg)</string>
+    <string name="estatura">Height (m)</string>
+    <string name="btn_calcular">Calculate BMI</string>
+    <string name="btn_AcercaDe">About...</string>
+    <string name="btn_regreso">Return to calculator</string>
+    <string name="nombre">Jorge Cisneros de la Torre</string>
+    <string name="noControl">20130789</string>
+    <string name="appVer">U3IMCApp ver1.0</string>
+    <string name="tecNM">National Technological Institute of Mexico</string>
+    <string name="campus">Campus La Laguna</string>
+    <string name="aceptar">OK</string>
+    <string name="delgadez_muy_severa">Very severe thiness</string>
+    <string name="delgadez_severa">Sever thiness</string>
+    <string name="imc_igual">BMI =</string>
+    <string name="condicion_salud">Your health condition is:</string>
+    <string name="delgadez">Thiness</string>
+    <string name="peso_saludable">Healthy weight</string>
+    <string name="sobrepeso">Overweight</string>
+    <string name="obesidad_moderada">Moderate obesity</string>
+    <string name="obesidad_severa">Severe obesity</string>
+    <string name="obesidad_muy_severa">Very severe obesity (morbid obesity)</string>
+    <string name="valor_0">You must enter values greater than zero</string>
+    <string name="valores_correctos">Enter correct values to do the calculation</string>
+</resources>

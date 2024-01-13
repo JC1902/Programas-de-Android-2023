@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cuadros de mensaje"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnToastCortoClick"
+        android:text="Toast duracion corto" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnToastLargoClick"
+        android:text="Toast duracion larga" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnSnackBarClick"
+        android:text="SnackBar duracion corta" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnMensajeSimpleClick"
+        android:text="Cuadro de mensaje simple" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnMensajeBtnOK"
+        android:text="Cuadro de mensaje con boton OK" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnMensajeBtnOKCANCEL"
+        android:text="Cuadros de mensaje con boton OK y CANCEL" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnCuadroListaOpcionesClick"
+        android:text="Cuadro con lista de opciones" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnCuadroListaOpcSelecUnicaClick"
+        android:text="Cuadro de lista de opciones seleccion unica" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnCuadroListaOpcSelecMultiClick"
+        android:text="Cuadro lista de opciones seleccion multiple" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnCuadroLayoutIncrustadoClick"
+        android:text="Cuadro mensaje con layout incrustado " />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnAcercaDeClick"
+        android:text="Acerca De.." />
+</LinearLayout>

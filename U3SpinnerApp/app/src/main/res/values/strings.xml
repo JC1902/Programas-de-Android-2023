@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">U3SpinnerEjemploApp</string>
+    <string-array name="pokemons_varios">
+        <item>Butterfree</item>
+        <item>Chandelure</item>
+        <item>Goodra</item>
+        <item>Rhyperior</item>
+        <item>Sylveon</item>
+        <item>Treecko</item>
+        <item>Froakie</item>
+        <item>Raichu</item>
+    </string-array>
+</resources>
